@@ -6635,7 +6635,7 @@
 				d()(this, t);
 				for (var r = arguments.length, o = new Array(r), a = 0; a < r; a++) o[a] = arguments[a];
 				return (n = y()(this, (e = b()(t)).call.apply(e, [this].concat(o)))).fullStyle = [
-					"/*\n* Hi。伟基同学！\n* 昨天刚认识。还没聊几句就惹你生气了，我真笨呢。\n* 给个机会重新认识一下呗！\n* 我是代码界的魔术师，擅长将一行行枯燥的代码变成令人惊叹的程序。\n* 不过别担心，我变魔术从不收费，只收bug作为报酬。\n* 如这个页面。就是个什么也没有的网页。\n* 我的工作就是给这种空白的页面加点儿东西。\n* 嗯。说起来手机和电脑还得区分一下。\n* 你现在用的是。。。"
+					"/*\n* Hi。伟基同学！\n* 昨天刚认识。还没聊几句就惹你生气了，我真笨呢。\n* 给个机会重新认识一下呗！\n* 我是代码界的魔术师。\n* 擅长将一行行枯燥的代码变成令人惊叹的程序。\n* 不过别担心，我变魔术从不收费。\n* 只收bug作为报酬。\n* 如这个页面。就是个什么也没有的网页。\n* 我的工作就是给这种空白的页面加点儿东西。\n* 嗯。说起来手机和电脑还得区分一下。\n* 你现在用的是。。。"
 					.concat(A ? "电脑" : "手机",
 						"\n*/\n\n/* 首先给所有元素加上过渡效果 */\n* {\n  -webkit-transition: all .5s;\n  transition: all .5s;\n}\n/* 白色背景太单调了。来点背景 */\nbody, html {\n  color: #fff;\n  background-color: darkslategray;\n}\n\n/* 文字太近了 */\n.styleEditor {\n  overflow: auto;\n  "
 						).concat(A ? "width: 48vw;\n  height: 96vh;" : "width: 96vw;\n  height: 48vh;",
