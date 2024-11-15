@@ -6635,7 +6635,7 @@
 				d()(this, t);
 				for (var r = arguments.length, o = new Array(r), a = 0; a < r; a++) o[a] = arguments[a];
 				return (n = y()(this, (e = b()(t)).call.apply(e, [this].concat(o)))).fullStyle = [
-					"/*\n* Hi。伟基同学！\n* 昨天刚认识。还没聊几句就惹你生气了，我真笨呢。\n* 给个机会重新认识一下呗！\n* 我是代码界的魔术师。\n* 擅长将一行行枯燥的代码变成令人惊叹的程序。\n* 不过别担心，我变魔术从不收费。\n* 只收bug作为报酬。\n* 如这个页面。就是个什么也没有的网页。\n* 我的工作就是给这种空白的页面加点儿东西。\n* 嗯。说起来手机和电脑还得区分一下。\n* 你现在用的是。。。"
+					"/*\n* Hi。同学们！我姓卢，是大家接下来的信息技术老师。\n* 很高兴认识大家！\n* 同时呢，我也是代码界的魔术师。\n* 擅长将一行行枯燥的代码变成令人惊叹的程序。\n* 不过别担心，我变魔术从不收费。\n* 只收bug作为报酬。\n* 如这个页面。就是个什么也没有的网页。\n* 我的任务就是给这种空白的页面加点儿东西。\n* 嗯。说起来手机和电脑还得区分一下。\n* 你现在用的是。。。"
 					.concat(A ? "电脑" : "手机",
 						"\n*/\n\n/* 首先给所有元素加上过渡效果 */\n* {\n  -webkit-transition: all .5s;\n  transition: all .5s;\n}\n/* 白色背景太单调了。来点背景 */\nbody, html {\n  color: #fff;\n  background-color: darkslategray;\n}\n\n/* 文字太近了 */\n.styleEditor {\n  overflow: auto;\n  "
 						).concat(A ? "width: 48vw;\n  height: 96vh;" : "width: 96vw;\n  height: 48vh;",
@@ -6645,7 +6645,7 @@
 						"transform: rotateX(-10deg) translateZ(-100px);\n  -webkit-transform: rotateX(-10deg) translateZ(-100px);",
 						" ").concat(A ? "" :
 						"\n  transform-origin: 50% 0% 0;\n  -webkit-transform-origin: 50% 0% 0;",
-						"\n}\n\n/*\n* 伟基同学，今天教你写代码。\n* 用代码画一个爱心。\n*/\n\n/* 首先，来一个画板 */\n.heartWrapper {\n  ")
+						"\n}\n\n/*\n* 同学们，今天教你们写代码。\n* 用代码画一个爱心。\n*/\n\n/* 首先，来一个画板 */\n.heartWrapper {\n  ")
 					.concat(A ? "width: 48vw;\n  height: 96vh;" : "width: 96vw;\n  height: 48vh;",
 						"\n  position: relative;\n  border: 1px solid;\n  background-color: white;\n  ")
 					.concat(A ?
@@ -6653,7 +6653,7 @@
 						"transform: rotateX(10deg) translateZ(-100px);\n  -webkit-transform: rotateX(10deg) translateZ(-100px);"
 						).concat(A ? "" :
 						"\n  transform-origin: 50% 0% 0;\n  -webkit-transform-origin: 50% 0% 0;",
-						"\n}\n\n/* 画一个方块，当左心室和右心室 */\n.heart {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin: -50px 0 0 -50px;\n  border-radius: 20px;\n  background: #E88D8D;\n  transform: rotate(45deg);\n}\n\n/* 画上左心房 */\n.heart::before {\n  content: '';\n  background: #E88D8D;\n  border-radius: 50%;\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: -38px;\n  top: 1px;\n}\n\n/* 再画上右心房 */\n.heart::after {\n  content: '';\n  background: #E88D8D;\n  border-radius: 50%;\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  right: -1px;\n  top: -38px;\n}\n\n/* 太单调了，让心跳动起来 */\n@keyframes throb {\n  0% {\n    transform: scale(1) rotate(45deg);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.65) rotate(45deg);\n    opacity: 0\n  }\n}\n\n.bounce {\n  opacity: 0.2;\n  animation: throb 1s infinite linear;\n}\n/*\n* Ok，完成！\n* 伟基同学，对不起！求原谅！\n*/\n\n"
+						"\n}\n\n/* 画一个方块，当左心室和右心室 */\n.heart {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin: -50px 0 0 -50px;\n  border-radius: 20px;\n  background: #E88D8D;\n  transform: rotate(45deg);\n}\n\n/* 画上左心房 */\n.heart::before {\n  content: '';\n  background: #E88D8D;\n  border-radius: 50%;\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: -38px;\n  top: 1px;\n}\n\n/* 再画上右心房 */\n.heart::after {\n  content: '';\n  background: #E88D8D;\n  border-radius: 50%;\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  right: -1px;\n  top: -38px;\n}\n\n/* 太单调了，让心跳动起来 */\n@keyframes throb {\n  0% {\n    transform: scale(1) rotate(45deg);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.65) rotate(45deg);\n    opacity: 0\n  }\n}\n\n.bounce {\n  opacity: 0.2;\n  animation: throb 1s infinite linear;\n}\n/*\n* Ok，完成！\n*/\n\n"
 						)
 				], n.state = {
 					currentStyleCode: "",
